@@ -11,7 +11,7 @@ interface runOptions{
 }
 
 
-export class serverApp{
+export class ServerApp{
     
     static run({base,limit,showTable,fileName,destination}:runOptions){
         console.log('Server run...')
